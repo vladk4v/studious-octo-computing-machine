@@ -7,10 +7,6 @@ public class Randoms implements Iterable<Integer> {
 
 	public Randoms(int min, int max) {
 		random = new FalseRandom(min, max);
-
-		random.ints(min, max + 1)
-				.iterator()
-				.nextInt();
 	}
 
 	@Override
